@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Lengkap</title>
+    <link rel="stylesheet" href="Kalkulator.css">
+</head>
+<body>
+    <h1>Kalkulator Matematika</h1>
+    <input type="number" id="num1" placeholder="Angka pertama">
+    <input type="number" id="num2" placeholder="Angka kedua (jika perlu)">
+    <div class="buttons">
+        <button onclick="calculate('add')">+</button>
+        <button onclick="calculate('subtract')">-</button>
+        <button onclick="calculate('multiply')">×</button>
+        <button onclick="calculate('divide')">÷</button>
+        <button onclick="calculate('power')">^</button>
+        <button onclick="calculate('sqrt')">√</button>
+        <button onclick="calculate('mod')">%</button>
+    </div>
+    <div id="output"></div>
+    <script src="Kalkulator.js"></script>
+</body>
+</html>
